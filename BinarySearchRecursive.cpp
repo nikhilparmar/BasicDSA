@@ -13,18 +13,6 @@ int binsearch(vector<int> a,int l,int r, int key)
     int mid;
     if(l<=r)
     {
-        if(a[l]==key)
-        {
-            return l;
-        }
-        else
-        {
-            return -1;
-        }
-        
-    }
-    else
-    {
         mid=l+(r-l)/2;
         if(key==a[mid])
         {
