@@ -11,7 +11,7 @@ int binsearch(vector<int> a,int l,int r, int key)
 {
     cout<<"l: "<<l<<" r:"<<r<<endl;
     int mid;
-    if(l==r)
+    if(l<=r)
     {
         if(a[l]==key)
         {
